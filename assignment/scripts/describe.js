@@ -26,10 +26,12 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a 'name' variable and set it equal to Dane.
+// We check if the 'name' variable is strictly equal to the string 'Mary'.
+// If 'name' was set to 'Mary' we would console.log 'Hi, Mary!', but 'name' is not currently 'Mary'
+// so we do not execute the 'Hi, Mary!' console log.
+// instead we execute the 'else' portion of the code because 'name' is 'Dane' and not 'Mary'
+// Therefore we console log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +47,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We initialize a variable called 'secret' without assigning it a value.
+// We make a 'code' variable and assign it the numeric value of 123.
+// We check if the 'code' variable is strictly equal to 123, because 'code' is indeed 123
+// we assign the string 'super' to the 'secret' variable and we assign a new value to 
+// the 'code' variable by using the previously set value of 123 and multiplying it by two, 
+// this results in the 'code' variable having a value of 246.
+// We check if the value of 'code' is greater than 250, therefore we do not set 'secret''s value to 'duper'
+// We then console log the variable 'secret' which is the string 'super'
+
 
 //CODE
 /*
@@ -70,10 +77,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set isStudent to true, set age to 34, and set zip to 55407
+// we check if isStudent is true, it is, AND ALSO check if zip is greater than 80000,
+// since both conditions were not met (zip is not greater than 80000) we do not console 
+// log `You're a student on the West Coast!`
+// Next we check to see if isStudent is false OR if age is less than 30. If one of those 
+// were true we would execute the console log 'What are your hobbies?', neither check is correct so we continue
+// We check if isStudent is true, it is! so we console log 'Welcome to Prime!'
+// We do not execute the last else statement, because the previous condition was met.
 
 //CODE
 /*
@@ -92,6 +103,7 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
+
 
 
 
