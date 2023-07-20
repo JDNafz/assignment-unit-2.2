@@ -107,7 +107,6 @@ if (isStudent === true && zip > 80000 ) {
 
 
 
-
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
 // Some of the code will NOT match the description.
@@ -142,12 +141,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - the instructions say to set colorOne to 'blue', so it should be 
+// let colorOne = 'blue'
 let colorOne = 'red';
+
+//FIX - colorTwo should be set to 'red' per instructions, so it should be
+// let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+//FIX - an additional line is needed that includes setting colorTwo to 'purple' as well, not just ColorOne. like this:
+//  colorTwo = 'purple';
 }
 */
 
@@ -159,6 +166,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - the OR operator was used instead of the AND operator
+// the solution should be: if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -172,10 +181,23 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+
+//FIX - this if statement produces the opposite effect. the instructions indicate using 
+// greater than or equal to minAge, so we should flip the order of the variables and use the '>=' operator.
+//should be: if (age >= minAge) {
 if(minAge <= age) {
+//FIX - console log statements need to be switched.
   console.log('no entry');
 } else {
   console.log('enter');
 }
+
+//Correct code would be the following:
+//if (age >= minAge) {
+//    console.log('enter');
+//} else {
+//    console.log('no entry');
+//}
+
 */
 
