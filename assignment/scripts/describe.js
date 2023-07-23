@@ -26,11 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We create a 'name' variable and set it equal to Dane.
-// We check if the 'name' variable is strictly equal to the string 'Mary'.
-// If 'name' was set to 'Mary' we would console.log 'Hi, Mary!', but 'name' is not currently 'Mary'
+// We create variable called name and set it equal to Dane.
+// We check if the name variable is strictly equal to the string 'Mary'.
+// If name was set to 'Mary' we would console.log 'Hi, Mary!', but 'name' is not currently 'Mary'
 // so we do not execute the 'Hi, Mary!' console log.
-// instead we execute the 'else' portion of the code because 'name' is 'Dane' and not 'Mary'
+// instead we execute the 'else' portion of the code because name is Dane and not Mary
 // Therefore we console log 'How do you do?'.
 
 //CODE
@@ -47,10 +47,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We initialize a variable called 'secret' without assigning it a value.
+// We initialize a variable called secret without assigning it a value.
 // We make a 'code' variable and assign it the numeric value of 123.
 // We check if the 'code' variable is strictly equal to 123, because 'code' is indeed 123
-// we assign the string 'super' to the 'secret' variable and we assign a new value to 
+// we assign the string 'super' to the variable called secret and we assign a new value to 
 // the 'code' variable by using the previously set value of 123 and multiplying it by two, 
 // this results in the 'code' variable having a value of 246.
 // We check if the value of 'code' is greater than 250, therefore we do not set 'secret''s value to 'duper'
@@ -77,14 +77,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We set isStudent to true, set age to 34, and set zip to 55407
-// we check if isStudent is true, it is, AND ALSO check if zip is greater than 80000,
-// since both conditions were not met (zip is not greater than 80000) we do not console 
-// log `You're a student on the West Coast!`
-// Next we check to see if isStudent is false OR if age is less than 30. If one of those 
+// We create three variables: isStudent, set it to true, age set it to 34, and zip set it to 55407
+// we check if two things are true 1: isStudent is true, it is, and 2: check if zip is greater than 80000, its not
+// since both conditions were not met, we do not console log `You're a student on the West Coast!`
+
+// Next we check one of two things are true: 1. Is isStudent set to false? no it is set to true 2. if age is less than 30. If one of those 
 // were true we would execute the console log 'What are your hobbies?', neither check is correct so we continue
+
 // We check if isStudent is true, it is! so we console log 'Welcome to Prime!'
+
 // We do not execute the last else statement, because the previous condition was met.
+
 
 //CODE
 /*
@@ -167,7 +170,8 @@ let temp = 40;
 const time = 4;
 
 //FIX - the OR operator was used instead of the AND operator
-// the solution should be: if (temp > 39 && time >= 4) {
+// the solution should be: 
+//if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -184,15 +188,17 @@ const minAge = 21;
 
 //FIX - this if statement produces the opposite effect. the instructions indicate using 
 // greater than or equal to minAge, so we should flip the order of the variables and use the '>=' operator.
-//should be: if (age >= minAge) {
+//should be: 
+//if (age >= minAge) {
 if(minAge <= age) {
-//FIX - console log statements need to be switched.
+
+//FIX - 'no entry' and 'enter' need to be switched.
   console.log('no entry');
 } else {
   console.log('enter');
 }
 
-//Correct code would be the following:
+//Correct code for the whole conditional would be the following:
 //if (age >= minAge) {
 //    console.log('enter');
 //} else {
